@@ -30,26 +30,23 @@
     margin-bottom: 25px;
 }
 .send input {
-    background-color: rgb(135, 132, 132);
+    background-color: rgb(168, 165, 165);
     width: 12vw;
     cursor: pointer;
     height: 25px;
     border-radius: 20px;
 }
 .send input:hover {
-    background-color: rgb(168, 165, 165);
-    transition: 1s;
+    background-color: #fdfdfd;
+    transition: 0.8s;
 }
 .forget {
     margin-bottom: 10px;
 }
 .main-container a {
     text-decoration: none;
-    color: black;
+    color: rgb(86, 86, 208);
     
-}
-.main-container a:hover {
-    color: white;   
 }
 nav {
     display: flex;
@@ -87,6 +84,13 @@ nav {
     margin-bottom: 20px;
     background-color: #fff;
 }
+.confirm-pass input{
+    height: 25px;
+    width: 12vw;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
 
 main h2 {
     display: flex;
@@ -97,13 +101,20 @@ main h2 {
 .registro {
     display: flex;
     justify-content: center;
-    height: 60vh;
+    height: 70vh;
     align-items: center;
+    
 }
 
-.send input{
+.sexos {
+    padding-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+}
+
+.iSexo  {
     display: flex;
-    background-color: #fdfdfd;
-    cursor: pointer;
-
+    justify-content: center;
 }
+
+
